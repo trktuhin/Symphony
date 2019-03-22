@@ -1,6 +1,6 @@
 <template>
   <v-app id="app">
-    <v-content class="secondary">
+    <v-content class="secondary lighten-3">
       <Navbar></Navbar>
       <transition name="slide" mode="out-in">
         <router-view class="pa-3"></router-view>

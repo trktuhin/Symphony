@@ -32,7 +32,7 @@
 
           <v-list two-line>
             <template v-for="(item, index) in directors">
-              <v-list-tile avatar :key="index" class="pt-1">
+              <v-list-tile avatar  class="pt-1">
                 <v-list-tile-avatar size="60">
                   <img :src="item.image">
                 </v-list-tile-avatar>
@@ -48,7 +48,7 @@
                   </v-btn>
                 </v-list-tile-content>
               </v-list-tile>
-              <v-divider inset :key="index"></v-divider>
+              <v-divider inset ></v-divider>
             </template>
           </v-list>
 
@@ -70,7 +70,7 @@
 
           <v-list two-line>
             <template v-for="(item, index) in implementation">
-              <v-list-tile avatar :key="index" class="pt-1">
+              <v-list-tile avatar  class="pt-1">
                 <v-list-tile-avatar size="60">
                   <img :src="item.image">
                 </v-list-tile-avatar>
@@ -86,7 +86,7 @@
                   </v-btn>
                 </v-list-tile-content>
               </v-list-tile>
-              <v-divider inset :key="index"></v-divider>
+              <v-divider inset ></v-divider>
             </template>
           </v-list>
 
@@ -108,7 +108,7 @@
 
           <v-list two-line>
             <template v-for="(item, index) in developers">
-              <v-list-tile avatar :key="index" class="pt-1">
+              <v-list-tile avatar  class="pt-1">
                 <v-list-tile-avatar size="60">
                   <img :src="item.image">
                 </v-list-tile-avatar>
@@ -124,7 +124,7 @@
                   </v-btn>
                 </v-list-tile-content>
               </v-list-tile>
-              <v-divider inset :key="index"></v-divider>
+              <v-divider inset ></v-divider>
             </template>
           </v-list>
 
@@ -149,7 +149,7 @@
 
           <v-list two-line>
             <template v-for="(item, index) in opetators">
-              <v-list-tile avatar :key="index" class="pt-1">
+              <v-list-tile avatar  class="pt-1">
                 <v-list-tile-avatar size="60">
                   <img :src="item.image">
                 </v-list-tile-avatar>
@@ -165,7 +165,7 @@
                   </v-btn>
                 </v-list-tile-content>
               </v-list-tile>
-              <v-divider inset :key="index"></v-divider>
+              <v-divider inset ></v-divider>
             </template>
           </v-list>
 
@@ -187,7 +187,7 @@
 
           <v-list two-line>
             <template v-for="(item, index) in marketing">
-              <v-list-tile avatar :key="index" class="pt-1">
+              <v-list-tile avatar  class="pt-1">
                 <v-list-tile-avatar size="60">
                   <img :src="item.image">
                 </v-list-tile-avatar>
@@ -203,7 +203,7 @@
                   </v-btn>
                 </v-list-tile-content>
               </v-list-tile>
-              <v-divider inset :key="index"></v-divider>
+              <v-divider inset ></v-divider>
             </template>
           </v-list>
 
@@ -225,7 +225,7 @@
 
           <v-list two-line>
             <template v-for="(item, index) in itSupports">
-              <v-list-tile avatar :key="index" class="pt-1">
+              <v-list-tile avatar  class="pt-1">
                 <v-list-tile-avatar size="60">
                   <img :src="item.image">
                 </v-list-tile-avatar>
@@ -241,7 +241,7 @@
                   </v-btn>
                 </v-list-tile-content>
               </v-list-tile>
-              <v-divider inset :key="index"></v-divider>
+              <v-divider inset ></v-divider>
             </template>
           </v-list>
 
