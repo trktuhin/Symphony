@@ -168,7 +168,7 @@
         <v-card class="elevation-0 transparent">
           <v-card-title>
             <div class="diamond">
-              <span class="font-weight-black text-uppercase">Sage 300erp</span>
+              <span class="font-weight-black text-uppercase">Sage 300 ERP</span>
             </div>
           </v-card-title>
         </v-card>

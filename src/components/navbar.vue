@@ -1,7 +1,7 @@
 <template>
   <nav class="top30">
     <v-toolbar app class="teal lighten-4">
-      <v-switch v-model="drawer" color="indigo darken-3" hide-details style="max-width:30px;"></v-switch>
+      <v-switch v-model="drawer" color="teal  lighten-3" hide-details style="max-width:30px;"></v-switch>
       <v-toolbar-title class="text-uppercase grey--text text--darken-3">
         <span>Symphony</span>
         <span class="font-weight-light">Softtech Ltd.</span>
