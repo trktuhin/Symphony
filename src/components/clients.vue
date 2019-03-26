@@ -1,6 +1,40 @@
 <template>
     <v-container fluid grid-list-sm>
     <v-layout row wrap>
+        <v-flex md12>
+            <v-radio-group v-model="currentClient" row>
+              <v-radio
+                label="All"
+                color="light-blue darken-4"
+                value="all"
+              ></v-radio>
+              <v-radio
+                label="Sage"
+                color="light-green accent-3"
+                value="sage"
+              ></v-radio>
+              <v-radio
+                label="VAT"
+                color="red accent-3"
+                value="vat"
+              ></v-radio>
+              <v-radio
+                label="HRM"
+                color="purple darken-3"
+                value="hrm"
+              ></v-radio>
+              <v-radio
+                label="FDR"
+                color="orange darken-3"
+                value="fdr"
+              ></v-radio>
+              <v-radio
+                label="PF & Gratuity"
+                color="brown darken-3"
+                value="pf"
+              ></v-radio>
+            </v-radio-group>
+          </v-flex>
       <v-flex xs4 sm2 md1 v-for="item in getDesiredClients">
         <v-img :src="item.image" max-height="100px" max-width="100px" class="trkLogo">
         </v-img>
@@ -91,14 +125,39 @@ export default {
     },
     computed:{
         getDesiredClients(){
-            var result=[];
             if(this.currentClient==='all'){
+                var result=[];
                 result.push(...this.sage);
                 result.push(...this.vat);
                 result.push(...this.hrm);
                 result.push(...this.pf);
                 result.push(...this.fdr);
                 console.log(result);
+                return result;
+            }
+            else if(this.currentClient==='sage'){
+                var result=[];
+                result.push(...this.sage);
+                return result;
+            }
+            else if(this.currentClient==='vat'){
+                var result=[];
+                result.push(...this.vat);
+                return result;
+            }
+            else if(this.currentClient==='hrm'){
+                var result=[];
+                result.push(...this.hrm);
+                return result;
+            }
+            else if(this.currentClient==='fdr'){
+                var result=[];
+                result.push(...this.fdr);
+                return result;
+            }
+            else if(this.currentClient==='pf'){
+                var result=[];
+                result.push(...this.pf);
                 return result;
             }
         }
