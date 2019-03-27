@@ -56,7 +56,6 @@ export default {
       links: [
         { icon: "home", text: "Home", route: "/" },
         { icon: "info", text: "About", route: "/about" },
-        { icon: "dock", text: "Portfolio", route: "/portfolio" },
         { icon: "people_outline", text: "Team", route: "/team" },
         { icon: "flash_on", text: "Skills", route: "/skills" },
         { icon: "work", text: "Products", route: "/products" },

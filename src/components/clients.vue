@@ -5,7 +5,7 @@
             <v-radio-group v-model="currentClient" row>
               <v-radio
                 label="All"
-                color="light-blue darken-4"
+                color="white darken-4"
                 value="all"
               ></v-radio>
               <v-radio
